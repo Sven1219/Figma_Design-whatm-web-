@@ -1,0 +1,34 @@
+/* Mobile & small screen size devices */
+@media only screen and (min-width: 1300px) {
+}
+
+@media only screen and (min-width: 1450px) {
+  .footer__content-box {
+    margin-top: 0.5%;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media only screen and (max-width: 767px) {
+  footer {
+    height: 35vh;
+  }
+}
+
+/* Landscape phones and smaller */
+@media only screen and (max-width: 500px) {
+  .footer-title {
+    display: none;
+  }
+  .footer__content-box {
+    margin-top: 5%;
+    width: 70vw;
+  }
+  .creator-box img {
+    width: 70%;
+    height: 35%;
+  }
+}
+
+@media only screen and (min-height: 800px) and (max-width: 500px) {
+}

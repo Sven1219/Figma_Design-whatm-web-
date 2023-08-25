@@ -1,0 +1,94 @@
+/* Mobile & small screen size devices */
+@media only screen and (min-width: 1300px) {
+  .left-coins-position {
+    bottom: 15%;
+  }
+  .right-coins-position {
+    bottom: 15%;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  div.licence_container__outer_circle {
+    top: 5%;
+  }
+  .left-scroll-position {
+    height: 80vh;
+    width: 23vw;
+  }
+
+  .right-scroll-position {
+    height: 80vh;
+    width: 23vw;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media only screen and (max-width: 767px) {
+  div.licence_container__outer_circle {
+    top: 2%;
+    width: 170vw;
+  }
+  div.licence_container__inner_circle {
+    overflow: hidden;
+    position: absolute;
+  }
+  div.licence_container__info {
+    position: relative;
+    top: 10%;
+    font-size: 4.5vh;
+  }
+  img.licence_container_img {
+    display: none;
+  }
+  img.mobile-scroll-img {
+    display: inline;
+    position: relative;
+    bottom: -1%;
+    height: 40vh;
+    width: 95vw;
+  }
+  img.left-coins-position {
+    left: 60%;
+    bottom: 2%;
+    display: inline;
+    width: 15%;
+    transform: skewX(5deg);
+    z-index: 2;
+  }
+  img.right-coins-position {
+    right: 65%;
+    bottom: 2%;
+    display: inline;
+    width: 15%;
+    transform: skewX(-5deg);
+    z-index: 2;
+  }
+  button.licence_container__btn {
+    width: 57vw;
+    height: 6.5vh;
+    font-size: 4.2vw;
+    position: relative;
+    top: 8.5%;
+    margin: 0;
+  }
+  div.licence-modal img {
+    height: 96%;
+    width: 96%;
+  }
+}
+
+/* Landscape phones and smaller */
+@media only screen and (max-width: 500px) {
+  /* .currency_container__outer_circle {
+    width: 110vh;
+    left: -48%;
+    top: -35%;
+  } */
+}
+
+@media only screen and (min-height: 800px) and (max-width: 500px) {
+  div.licence_container__outer_circle {
+    top: 8%;
+  }
+}

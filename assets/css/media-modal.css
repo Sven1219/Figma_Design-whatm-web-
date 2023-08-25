@@ -1,0 +1,159 @@
+/* Mobile & small screen size devices */
+@media only screen and (min-width: 1300px) {
+}
+
+@media only screen and (min-width: 1450px) {
+}
+
+/* Landscape phones and portrait tablets */
+@media only screen and (max-width: 768px) {
+  .modal-form-inputs{
+    display: block;
+    height: auto;
+  }
+  .modal-form-input-label-box{
+    width: 100%;
+    margin-top: 5px;
+  }
+  .modal-form-input-label{
+    font-size: 2.3vh;
+  }
+  .modal-form-currencies-label{
+    font-size: 2.3vh;
+  }
+  .modal-form-title {
+    font-size: 6.4vw;
+  }
+  .modal-form-title-load{
+    font-size: 8.5vw;
+  }
+  .modal-form-subtitle {
+    font-size: 3.5vw;
+  }
+  .modal-form-title-image img{
+    width: 22.642vw;
+  }
+  .modal-form {
+    top: 2.5vh;
+    width: 81%;
+    height: 100vh;
+    transform: translate(-50%, 0);
+  }
+  .modal-form-load{
+    top: 14.5vh;
+    width: 81%;
+    height: 88vh;
+    background: rgba(25, 23, 20, 1);
+  }
+  #pop_bg{
+    display: none;
+  }
+  .modal-form-title-image{
+    margin-top: 20px;
+  }
+  .activator-ov {
+    height: 120%;
+    max-height: 160%;
+  }
+  .overlay {
+    height: 120vh;
+  }
+  .close-modal{
+    top: -0.8rem;
+    right: 1rem;
+    font-size: 4rem;
+  }
+}
+
+/* Landscape phones and smaller */
+@media only screen and (max-width: 375px) {
+  .modal-form {
+    width: 85%;
+    height: 85vh;
+  }
+
+  .modal-form-inputs {
+    flex-direction: column;
+    height: 24%;
+    justify-content: space-around;
+  }
+
+  .modal-form-input-label-box {
+    width: 100%;
+  }
+
+  input.currency_form__input-field {
+    height: 5.5vh;
+  }
+
+  .modal-form-name-input-box.cform {
+    height: 7%;
+  }
+
+  .modal-form-contacts-input-box.cform {
+    height: 7%;
+  }
+
+  .modal-form-textarea-box.cform {
+    height: 8%;
+  }
+
+  .modal-form-btn-box.cform {
+    margin-top: 12%;
+    height: 8%;
+  }
+
+  .close-modal {
+    top: -0.9rem;
+    right: -0.9em;
+    font-size: 4.5rem;
+  }
+
+  .currency-option-icon {
+    width: 20%;
+    margin-right: 5%;
+  }
+
+  .modal-form-currencies-box {
+    /* height: 9%; */
+    height: 8.35vh;
+  }
+
+  .modal-form-currencies-labels-box {
+    margin-bottom: 4%;
+  }
+
+  .modal-form-title {
+    font-size: 6.4vw;
+  }
+  .modal-form-title-load{
+    font-size: 5.5vw;
+  }
+  .modal-form-subtitle {
+    font-size: 2.5vw;
+  }
+  .modal-form-title-image img{
+    width: 18.642vw;
+  }
+  .modal-form {
+    top: 2.5vh;
+    transform: translate(-50%, 0);
+  }
+  .modal-form-load{
+    top: 14.5vh;
+    width: 55%;
+  }
+  .modal-form-title-image{
+    margin-top: 0px;
+  }
+  .activator-ov {
+    height: 120%;
+    max-height: 160%;
+  }
+  .overlay {
+    height: 120vh;
+  }
+}
+
+@media only screen and (min-height: 800px) and (max-width: 500px) {
+}

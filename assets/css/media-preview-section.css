@@ -1,0 +1,96 @@
+/* Mobile & small screen size devices */
+@media only screen and (min-width: 1300px) {
+  div.preview_container__outer_circle {
+    top: -45%;
+  }
+  .preview_container-carousel-container {
+    top: 25%;
+  }
+  /* .preview_container-carousel-container {
+    top: 20%;
+  } */
+}
+
+@media only screen and (min-width: 1450px) {
+  div.preview_container__outer_circle {
+    top: -55%;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media only screen and (max-width: 767px) {
+  div.preview_container__outer_circle {
+    top: -62%;
+    width: 150vw;
+  }
+  .preview_container-title {
+    font-size: 4.5vh;
+  }
+  .preview_container-carousel-container {
+    display: none;
+  }
+  div.preview_container-mobile-carousel-container {
+    display: block !important;
+  }
+  .preview_container-video-btn {
+    position: absolute;
+    top: 33.5%;
+    right: 33.5%;
+  }
+  .modal-video-box {
+    width: 80vw;
+    height: 70vh;
+    top: 45%;
+  }
+
+  .modal-video-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal-video-inst {
+    font-size: 4.7vw;
+    font-weight: 600;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(180deg, #e4bc6d 0%, #1f1e1b 250%);
+    border-radius: 90px;
+    color: #0c0b0a;
+    min-width: 60vw;
+    min-height: 7.35vh;
+    justify-content: center;
+  }
+
+  .modal-video-mobile-img {
+    display: flex;
+  }
+
+  .modal-video-img {
+    display: none;
+  }
+
+  .modal-video-inst img {
+    height: 10vw;
+    width: 10vw;
+    margin-right: 0.5vh;
+  }
+
+  .modal-video-name {
+    font-size: 4.7vw;
+    margin: 2vh 0;
+  }
+
+  .close-video-modal {
+    right: -7.5vh;
+  }
+}
+
+/* Landscape phones and smaller */
+@media only screen and (max-width: 500px) {
+}
+
+@media only screen and (min-height: 800px) and (max-width: 500px) {
+  div.preview_container__outer_circle {
+    top: -20%;
+  }
+}

@@ -1,0 +1,61 @@
+/* Mobile & small screen size devices */
+@media only screen and (min-width: 1300px) {
+  .currency_form__usdt-input-icon-box {
+    left: 37%;
+  }
+  .currency_form__usdt-input-icon-box .currency_form__input-icon {
+    margin-right: 0.5vw;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+}
+
+/* Landscape phones and portrait tablets */
+@media only screen and (max-width: 767px) {
+  div.cryptocurrency__eth_img-box {
+    width: 25vw;
+    height: 20vh;
+    position: relative;
+    top: -1.8vh;
+  }
+  div.cryptocurrency__ltc_img-box {
+    width: 28vw;
+    height: 14vh;
+  }
+  .cryptocurrency_container__outer_circle {
+    left: -55%;
+    top: -87%;
+    width: 210vw;
+  }
+  form.cryptocurrency_form {
+    bottom: 4%;
+    width: 95%;
+    height: 80%;
+    background: rgba(25, 23, 20, 0.9);
+    backdrop-filter: blur(7.5px);
+  }
+  img.cryptocurrency_form_BTC-image {
+    width: 30vw;
+    height: 30vw;
+    bottom: -5vh;
+    right: 0vw;
+  }
+  img.cryptocurrency_form_USDT-image {
+    position: inherit;
+    width: 23vw;
+    height: 23vw;
+    bottom: -3vh;
+    left: 8vw;
+  }
+}
+
+/* Landscape phones and smaller */
+@media only screen and (max-width: 500px) {
+}
+
+@media only screen and (min-height: 800px) and (max-width: 500px) {
+  div.cryptocurrency_container__outer_circle {
+    top: -85%;
+  }
+}

@@ -1,0 +1,106 @@
+/* Mobile & small screen size devices */
+@media only screen and (min-width: 1300px) {
+  .contacts_container_title-img-box {
+    height: 38vh;
+  }
+  .contacts_map-img-box {
+    max-width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+}
+
+/* Landscape phones and portrait tablets */
+@media only screen and (max-width: 767px) {
+  .contacts_container {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-tg-btn {
+    margin-top: 18.5%;
+  }
+
+  .contacts_container-top-gradient {
+    display: none;
+  }
+
+  .contacts_container_content-box {
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  form.contacts_container_form {
+    width: 90vw;
+    margin-left: 0;
+    padding-top: 4.5%;
+  }
+
+  .contacts_container_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0%;
+  }
+
+  .contacts_container_title-box {
+    justify-content: center;
+  }
+
+  .contacts_container-title {
+    margin-left: 0;
+    width: 90vw;
+  }
+
+  .contacts_container-title-text {
+    margin: 0%;
+    font-size: 4vh;
+  }
+
+  .contacts_map-img-box {
+    max-width: none;
+    display: flex;
+    justify-content: center;
+    width: 95vw;
+  }
+
+  .contacts_map-img-box img {
+    width: 100%;
+  }
+
+  .contacts-map-mobile {
+    display: block;
+    margin-left: 5vw;
+    height: 40vh;
+  }
+
+  .contacts-map {
+    display: none;
+  }
+
+  .contacts_container_title-img-box {
+    display: none;
+  }
+
+  .contacts_container-bottom-gradient {
+    height: 15vh;
+  }
+
+  button.contacts_container-btn {
+    font-size: 4.2vw;
+  }
+}
+
+/* Landscape phones and smaller */
+@media only screen and (max-width: 500px) {
+}
+
+@media only screen and (min-height: 800px) and (max-width: 500px) {
+  div.cryptocurrency_container__outer_circle {
+    top: -85%;
+  }
+}

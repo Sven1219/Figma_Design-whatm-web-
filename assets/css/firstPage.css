@@ -1,0 +1,144 @@
+.firstPage-section{
+    margin-top: 20px;
+}
+
+.quotes::before {
+  top: 480px !important;
+}
+
+.firstPage-title {
+    text-align: center;
+    min-height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2vw;
+    background: linear-gradient(
+      178.58deg,
+      rgba(228, 188, 109, 0) -230.32%,
+      #e4bc6d 98.79%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .firstPage-subtitle {
+    text-align: center;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #fdfdfd;
+  }
+
+.firstPage-title-image {
+    text-align: center;
+}
+
+.firstPage-title-image img{
+    width: 7.642vw;
+}
+
+.firstPage-title-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.firstPage-title-btn button{
+    width: 34vw;  
+    height: 6.2vh;
+    background: linear-gradient(
+      180deg,
+      #e4bc6d 0%,
+      rgba(228, 188, 109, 0.22) 250%
+    );
+    border: none;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.1vw;
+    text-align: center;
+    color: #0c0b0a;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+    .firstPage-section{
+        margin-top: 0px;
+    }
+
+    .quotes::before {
+      top: 350px !important;
+      width: 35.5rem;
+    }
+    
+    .firstPage-title {
+        text-align: center;
+        min-height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 5vw;
+        background: linear-gradient(
+          178.58deg,
+          rgba(228, 188, 109, 0) -230.32%,
+          #e4bc6d 98.79%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      
+      .firstPage-subtitle {
+        text-align: center;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 5vw;
+        color: #fdfdfd;
+      }
+    
+    .firstPage-title-image {
+        text-align: center;
+    }
+    
+    .firstPage-title-image img{
+        width: 17vw;
+    }
+    
+    .firstPage-title-btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 36px;
+    }
+    
+    .firstPage-title-btn button{
+        width: 80vw;  
+        height: 6.2vh;
+        background: linear-gradient(
+          180deg,
+          #e4bc6d 0%,
+          rgba(228, 188, 109, 0.22) 250%
+        );
+        border: none;
+        border-radius: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 3vw;
+        text-align: center;
+        color: #0c0b0a;
+        cursor: pointer;
+    }
+  }

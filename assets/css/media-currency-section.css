@@ -1,0 +1,243 @@
+/* Mobile & small screen size devices */
+@media only screen and (min-width: 1300px) {
+  .currency_container__outer_circle {
+    width: 65vw;
+    top: -40%;
+  }
+  .hand_image_container {
+    height: 80vh;
+  }
+  .currency_container__outer_circle {
+    top: -50%;
+  }
+  .currency_container__info-box {
+    top: 34%;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .currency_container__logo-box {
+    margin-top: 0;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media only screen and (max-width: 767px) {
+  .currency_container {
+    height: 220vh;
+  }
+  .cryptocurrency_container{
+    height: 115vh;
+  }
+  .currency_container__outer_circle {
+    width: 110vh;
+    top: -38%;
+  }
+  .currency_container__inner_circle {
+    overflow: hidden;
+    position: absolute;
+  }
+
+  .currency_container__logo-box {
+    height: 3.5vh;
+    width: 33vw;
+    top: 6%;
+  }
+  .currency_container__info-box {
+    height: 35vh;
+    width: 90vw;
+    top: 18%;
+    text-align: center;
+  }
+
+  .currency_container__info-box-title {
+    font-size: 4.5vh;
+  }
+
+  .currency_container__info-box-subtitle {
+    font-size: 4vh;
+    letter-spacing: -0.02em;
+  }
+
+  .currency_container__info-box-text {
+    font-size: 1.8vh;
+  }
+  .telegram-contact-btn {
+    height: 8vh;
+    width: 90vw;
+    margin-top: 8.5%;
+    font-size: 4.2vw;
+  }
+
+  .hand_image_container {
+    display: none;
+  }
+
+  .hand_image_mobile-container {
+    display: block;
+    position: relative;
+    height: 48vh;
+    width: 43vw;
+  }
+
+  .rub_hand-mobile {
+    position: absolute;
+    left: 25%;
+    top: 58%;
+  }
+
+  .usd_hand-mobile {
+    position: absolute;
+    right: 25%;
+    top: 58%;
+  }
+
+  .info-text-delimiter {
+    display: none;
+  }
+
+  form.currency_form {
+    position: relative;
+    bottom: 30%;
+    width: 95%;
+    height: 40%;
+    background: rgba(25, 23, 20, 0.9);
+    backdrop-filter: blur(7.5px);
+    border-radius: 32px;
+  }
+
+  div.currency_form__title {
+    height: 21.375%;
+    color: #fcfcfd;
+    font-size: 6.4vw;
+    flex-direction: column;
+  }
+
+  div.currency_form__inputs-container {
+    flex-direction: column;
+    height: 33.375%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  div.currency_form__input-box {
+    width: 100%;
+  }
+
+  label.currency_form__input-label {
+    font-size: 3.2vw;
+  }
+
+  button.currency_form__switch_btn {
+    height: 12.5vw;
+    width: 12.5vw;
+    position: absolute;
+    top: 38%;
+  }
+
+  button.cryptocurrency_form__switch_btn {
+    height: 12.5vw;
+    width: 12.5vw;
+    position: absolute;
+    top: 38%;
+  }
+
+  input.currency_form__input-field {
+    height: 8.5vh;
+    font-size: 6.4vw;
+  }
+
+  div.currency_form__rub-input-icon-box {
+    width: 19%;
+    left: 74%;
+    bottom: 68%;
+    justify-content: space-around;
+  }
+
+  .mob-switch-img {
+    display: block;
+    width: 90%;
+    height: 50%;
+  }
+
+  div.currency_form__usdt-input-icon-box {
+    width: 19%;
+    left: 73%;
+    bottom: 68%;
+    justify-content: space-around;
+  }
+
+  div.currency_form__usd-input-icon-box {
+    width: 19%;
+    left: 74%;
+    bottom: 47%;
+    justify-content: space-around;
+  }
+
+  div.currency_form__info {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 23.375%;
+  }
+
+  p.currency_form__info-title {
+    font-size: 5.6vw;
+    text-align: center;
+    display: block;
+  }
+
+  .currency_form__info-course {
+    font-size: 3.2vw;
+  }
+
+  .form__accent-text {
+    font-size: 6.4vw;
+    margin-left: 1vw;
+  }
+
+  .form__info-text-mobile {
+    display: inline;
+  }
+
+  .form__info-text {
+    display: none;
+  }
+
+  div.currency_form__btn_container {
+    height: 21.375%;
+  }
+
+  button.currency_form__submit_btn {
+    width: 57vw;
+    height: 6.5vh;
+    font-size: 4.2vw;
+  }
+  .currency_form__input-icon {
+    height: 6vw;
+  }
+  .web-switch-img {
+    display: none;
+  }
+}
+
+/* Landscape phones and smaller */
+@media only screen and (max-width: 500px) {
+  .currency_container__outer_circle {
+    width: 110vh;
+    top: -35%;
+  }
+}
+
+@media only screen and (min-height: 800px) and (max-width: 500px) {
+  .currency_container__outer_circle {
+    top: -34%;
+  }
+  .rub_hand-mobile {
+    left: 29%;
+  }
+}
+@media only screen and (min-width: 750px) and (min-height: 1000px) {
+  .currency_container__outer_circle {
+    width: 80vw;
+  }
+}

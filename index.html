@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-54KN5GRWWB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-54KN5GRWWB');
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What Money</title>
+    <link rel="icon" href="./assets/images/WhatMoney_Favicon_big.png" />
+    <link rel="stylesheet" href="./assets/css/font.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/modal.css" />
+    <link rel="stylesheet" href="./assets/css/media-currency-section.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/media-cryptocurrency-section.css"
+    />
+    <link rel="stylesheet" href="./assets/css/media-licence-section.css" />
+    <link rel="stylesheet" href="./assets/css/media-contacts-section.css" />
+    <link rel="stylesheet" href="./assets/css/media-footer-section.css" />
+    <link rel="stylesheet" href="./assets/css/media-preview-section.css" />
+    <link rel="stylesheet" href="./assets/css/media-modal.css" />
+    <link rel="stylesheet" href="./assets/css/mobile-nav.css" />
+    <link rel="stylesheet" href="./assets/css/carousel.css" />
+    <link rel="stylesheet" href="./assets/css/joke-modal.css" />
+    <link rel="stylesheet" href="./assets/css/licence-modal.css" />
+    <link rel="stylesheet" href="./assets/css/form-popup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <body>
+    <div class="select-overlay hidden"></div>
+    <div class="overlay overlay-load hidden">
+      <div class="modal-form modal-form-load hidden cform" data-transaction-type="rubToUsd">
+        <img id="pop_bg" src="./assets/images/pop_background.png" alt="pop_background" />
+        <div class="modal-form-title-image cform">
+          <img src="./assets/images/confirmation-badge2.png" alt="confirmation-badge_load" />
+        </div>
+        <div class="modal-form-title modal-form-title-load cform">
+          Скидка 50%
+        </div>
+        <div class="modal-form-subtitle modal-form-subtitle-load cform">
+          На ваш первый обмен
+        </div>
+        <div class="modal-form-selects-overflow-box cform">
+          <div class="modal-form-name-input-box cform">
+            <input
+              type="text"
+              class="modal-form-name-input name-input cform"
+              placeholder="Как к вам обращаться?"
+            />
+          </div>
+          <div
+            class="modal-form-contacts-input-box cform"
+            id="modal-way-select-box"
+          >
+            <div class="select modal-form-contact-input cform">
+              <div
+                class="selectBtn placeholder-text cform"
+                data-type="firstOption"
+                id="modal-contact-input"
+              >
+                Как с вами связаться?
+              </div>
+              <div class="selectDropdown cform">
+                <div
+                  class="option contacts-input cform contact-option modal-tg-option"
+                  data-type="firstOption"
+                >
+                  <img
+                    src="./assets/images/telegram_icon.png "
+                    class="option-img cform"
+                    alt=""
+                  />
+                  Telegram
+                </div>
+                <div
+                  class="option contacts-input cform contact-option"
+                  data-type="secondOption"
+                >
+                  <img
+                    src="./assets/images/whatsapp_icon.png"
+                    class="option-img cform"
+                    alt=""
+                  />WhatsUp
+                </div>
+                <div
+                  class="option contacts-input cform contact-option"
+                  data-type="thirdOption"
+                >
+                  <img
+                    src="./assets/images/sms_icon.png"
+                    class="option-img cform"
+                    alt=""
+                  />IMessage
+                </div>
+                <div
+                  class="option contacts-input cform contact-option"
+                  data-type="fourOption"
+                >
+                  <img
+                    src="./assets/images/phone_icon.png"
+                    class="option-img cform"
+                    alt=""
+                  />Звонок по телефону
+                </div>
+                <div
+                  class="option contacts-input cform contact-option"
+                  data-type="fiveOption"
+                >
+                  <img
+                    src="./assets/images/mail_icon.png"
+                    class="option-img cform"
+                    alt=""
+                  />SMS
+                </div>
+              </div>
+            </div>
+            <input
+              type="text"
+              class="modal-form-name-input modal-form-hidden-сontact-input cform hidden phone-mask"
+              placeholder="Введите телефон"
+            />
+          </div>
+          <div class="modal-form-textarea-box cform">
+            <textarea
+              class="modal-form-textarea cform"
+              placeholder="Комментарий"
+            ></textarea>
+          </div>
+          <div class="modal-form-btn-box cform">
+            <button class="modal-form-btn modal-form-btn-load cform pulse-animation">
+              Далее
+            </button>
+          </div>
+        </div>
+        <button class="close-modal-load"><img src="./assets/images/crossImage.png" alt="cross" /></button>
+      </div>
+      <div class="activator-ov"></div>
+    </div>
+    <div class="overlay overlay-currency hidden">
+      <div class="modal-form modal-form-currency hidden cform" data-transaction-type="rubToUsd">
+        <div class="modal-form-title cform">
+          Оставьте заявку и мы свяжемся с вами
+        </div>
+        <div class="modal-form-currencies-labels-box cform">
+          <div class="modal-form-currencies-label cform">ОТПРАВИТЬ</div>
+          <div class="modal-form-currencies-label cform">ПОЛУЧИТЬ</div>
+        </div>
+        <div class="modal-form-currencies-box cform">
+          <div class="select cform">
+            <div
+              class="selectBtn cform"
+              data-type="firstOption"
+              id="default_first_course_opt"
+            >
+              <div class="currency-option-icon cform">
+                <img src="./assets/images/rub_vector.png" alt="rub" />
+              </div>
+              RUB
+            </div>
+            <div class="selectDropdown cform">
+              <div
+                class="option cform"
+                data-type="firstOption"
+                data-option-type="1 rub"
+              >
+                <div class="currency-option-icon cform">
+                  <img
+                    src="./assets/images/rub_vector.png"
+                    class="cform"
+                    alt="rub"
+                  />
+                </div>
+                RUB
+              </div>
+              <div
+                class="option cform"
+                data-type="secondOption"
+                data-option-type="1 usd"
+              >
+                <div class="currency-option-icon cform">
+                  <img
+                    src="./assets/images/usd_vector.png"
+                    class="cform"
+                    alt="usd"
+                  />
+                </div>
+                USD
+              </div>
+              <div
+                class="option cform"
+                data-type="thirdOption"
+                data-option-type="1 usdt"
+              >
+                <div class="currency-option-icon cform">
+                  <img
+                    src="./assets/images/usdt_vector.png"
+                    class="cform"
+                    alt="usdt"
+                  />
+                </div>
+                USDT
+              </div>
+            </div>
+          </div>
+          <div class="select cform">
+            <div
+              class="selectBtn cform"
+              data-type="firstOption"
+              id="default_second_course_opt"
+            >
+              <div class="currency-option-icon cform">
+                <img
+                  src="./assets/images/usd_vector.png"
+                  class="cform"
+                  alt="usd"
+                />
+              </div>
+              USD
+            </div>
+            <div class="selectDropdown cform">
+              <div
+                class="option cform"
+                data-type="firstOption"
+                data-option-type="2 Rub"
+              >
+                <div class="currency-option-icon cform">
+                  <img
+                    src="./assets/images/rub_vector.png"
+                    class="cform"
+                    alt="rub"
+                  />
+                </div>
+                RUB
+              </div>
+              <div
+                class="option cform"
+                data-type="secondOption"
+                data-option-type="2 Usd"
+              >
+                <div class="currency-option-icon cform">
+                  <img
+                    src="./assets/images/usd_vector.png"
+                    class="cform"
+                    alt="usd"
+                  />
+                </div>
+                USD
+              </div>
+              <div
+                class="option cform"
+                data-type="thirdOption"
+                data-option-type="2 Usdt"
+              >
+                <div class="currency-option-icon cform">
+                  <img
+                    src="./assets/images/usdt_vector.png"
+                    class="cform"
+                    alt="usdt"
+                  />
+                </div>
+                USDT
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-form-inputs cform">
+          <div class="modal-form-input-label-box cform">
+            <label class="modal-form-input-label cform">ВЫ ОТПРАВЛЯЕТЕ</label>
+            <input
+              type="number"
+              class="currency_form__input-field cform"
+              id="modal-form-first-input"
+              value="1000"
+            />
+          </div>
+          <div class="modal-form-input-label-box cform">
+            <label class="modal-form-input-label cform">ВЫ ПОЛУЧАЕТЕ</label>
+            <input
+              type="number"
+              class="currency_form__input-field cform"
+              id="modal-form-second-input"
+              value="13.7"
+            />
+          </div>
+        </div>
+        <div class="modal-form-selects-overflow-box cform">
+          <div class="modal-form-name-input-box cform">
+            <input
+              type="text"
+              class="modal-form-name-input modal-form-name-input-currency name-input cform"
+              placeholder="Как к вам обращаться?"
+            />
+          </div>
+          <div
+            class="modal-form-contacts-input-box cform"
+            id="modal-city-select-box"
+          >
+            <div class="select modal-form-city-input cform">
+              <div
+                class="selectBtn placeholder-text cform"
+                data-type="questionOption"
+                id="modal-city-input-currency"
+              >
+                В каком городе вы находитесь?
+              </div>
+              <div class="selectDropdown cform">
+                <div class="option contacts-input cform" data-type="LAOption">
+                  Лос-Анджелес
+                </div>
+                <div
+                  class="option contacts-input cform"
+                  data-type="MiamiOption"
+                >
+                  Майами
+                </div>
+                <div
+                  class="option contacts-input cform"
+                  id="modalOtherOption"
+                  data-type="otherOption"
+                >
+                  Другой
+                </div>
+              </div>
+            </div>
+            <input
+              type="text"
+              class="modal-form-name-input modal-form-hidden-city-input cform hidden"
+              placeholder="Введие город"
+            />
+          </div>
+          <div
+            class="modal-form-contacts-input-box cform"
+            id="modal-way-select-box"
+          >
+            <div class="select modal-form-contact-input modal-form-contact-input-currency cform">
+              <div
+                class="selectBtn placeholder-text cform"
+                data-type="firstOption"
+                id="modal-contact-input-currency"
+              >
+                Как с вами связаться?
+              </div>
+              <div class="selectDropdown cform">
+                <div
+                  class="option contacts-input cform contact-option contact-option-currency modal-tg-option"
+                  data-type="firstOption"
+                >
+                  <img
+                    src="./assets/images/telegram_icon.png "
+                    class="option-img cform"
+                    alt=""
+                  />
+                  Telegram
+                </div>
+                <div
+                  class="option contacts-input cform contact-option contact-option-currency"
+                  data-type="secondOption"
+                >
+                  <img
+                    src="./assets/images/whatsapp_icon.png"
+                    class="option-img cform"
+                    alt=""
+                  />WhatsUp
+                </div>
+                <div
+                  class="option contacts-input cform contact-option contact-option-currency"
+                  data-type="thirdOption"
+                >
+                  <img
+                    src="./assets/images/sms_icon.png"
+                    class="option-img cform"
+                    alt=""
+                  />IMessage
+                </div>
+                <div
+                  class="option contacts-input cform contact-option contact-option-currency"
+                  data-type="fourOption"
+                >
+                  <img
+                    src="./assets/images/phone_icon.png"
+                    class="option-img cform"
+                    alt=""
+                  />Звонок по телефону
+                </div>
+                <div
+                  class="option contacts-input cform contact-option contact-option-currency"
+                  data-type="fiveOption"
+                >
+                  <img
+                    src="./assets/images/mail_icon.png"
+                    class="option-img cform"
+                    alt=""
+                  />SMS
+                </div>
+              </div>
+            </div>
+            <input
+              type="text"
+              class="modal-form-name-input modal-form-hidden-сontact-input modal-form-hidden-сontact-input-currency cform hidden phone-mask"
+              placeholder="Введите телефон"
+            />
+          </div>
+          <div class="modal-form-textarea-box cform">
+            <textarea
+              class="modal-form-textarea cform"
+              placeholder="Комментарий"
+            ></textarea>
+          </div>
+          <div class="modal-form-btn-box cform">
+            <button class="modal-form-btn modal-form-btn-currency cform pulse-animation">
+              Отправить заявку
+            </button>
+          </div>
+        </div>
+        <button class="close-modal">&times;</button>
+      </div>
+      <div class="activator-ov"></div>
+    </div>
+    <main>
+      <button
+        class="get_in_touch_on_telegram_submit_btn pulse-animation"
+        id="get_in_touch_on_telegram_submit"
+        onclick="window.open('https://t.me/WhatMoneyExchange', '_blank', 'fullscreen=yes'); return false;"
+      >
+        <img src="./assets/images/Vector.png" alt="telegram Vector icon">
+        Связаться в Telegram
+      </button>
+      <section class="currency_container">
+        <div class="currency-gradient">
+          <div class="mobile-icon-nav-container btn-open-nav">
+            <img src="./assets/images/burger-icon.png" alt="burger icon" />
+          </div>
+          <div class="mobile-icon-nav-container btn-close-nav hidden">
+            <img src="./assets/images/close-icon.png" alt="close icon" />
+          </div>
+          <div class="mobile-nav-modal hidden">
+            <div class="mobile-nav-container">
+              <div class="mobile-nav-options-box">
+                <div class="mobile-nav-option" id="1opt">Обмен рублей</div>
+                <div class="mobile-nav-option" id="2opt">
+                  Обмен криптовалюты
+                </div>
+                <div class="mobile-nav-option" id="3opt">Отзывы</div>
+                <div class="mobile-nav-option" id="4opt">Свяжитесь с нами</div>
+              </div>
+              <button
+                class="telegram-contact-btn black-pulse-animation nav-tg-btn"
+                onclick="window.open('https://t.me/WhatMoneyExchange', '_blank', 'fullscreen=yes'); return false;"
+              >
+                <img
+                  src="./assets/images/telegram_icon.png"
+                  alt="telegram icon"
+                />
+                <p>Связаться с нами в Telegram</p>
+              </button>
+            </div>
+          </div>
+          <div class="currency_container__gradient"></div>
+          <div class="currency_container__logo-box">
+            <img src="./assets/images/Logo.png" alt="WhatMoney Logo" />
+          </div>
+          <div class="currency_container__outer_circle">
+            <div class="currency_container__inner_circle">
+              <div class="currency_container__info-box">
+                <p class="currency_container__info-box-title">
+                  Зачем же вам деньги?
+                </p>
+                <p class="currency_container__info-box-subtitle">
+                  Чтобы вы их тратили!
+                </p>
+                <p class="currency_container__info-box-text">
+                  Обменивайте рубли на доллары и покупайте/продавайте
+                  <br class="info-text-delimiter" />
+                  USDT легко и безопасно с нами в Лос-Анджелесе и Майами!
+                </p>
+                <button
+                  class="telegram-contact-btn black-pulse-animation"
+                  onclick="window.open('https://t.me/WhatMoneyExchange', '_blank', 'fullscreen=yes'); return false;"
+                >
+                  <img
+                    src="./assets/images/telegram_icon.png"
+                    alt="telegram icon"
+                  />
+                  <p>Связаться с нами в Telegram</p>
+                </button>
+              </div>
+              <div class="hand_image_mobile-container rub_hand-mobile">
+                <img
+                  class="hand_image screw-anim"
+                  src="./assets/images/RUB_hand.png"
+                  alt="Hand with ruble"
+                />
+              </div>
+              <div class="hand_image_mobile-container usd_hand-mobile">
+                <img
+                  class="hand_image"
+                  src="./assets/images/USD_hand.png"
+                  alt="Hand with dollar"
+                />
+              </div>
+            </div>
+          </div>
+          <form action="" class="currency_form" data-currency-type="rubToUsd">
+            <div class="currency_form__title">
+              Покупка и продажа <span class="gold-color">&nbspРублей</span>
+            </div>
+            <div class="currency_form__inputs-container">
+              <div class="currency_form__input-box">
+                <label class="currency_form__input-label">ВЫ ОТПРАВЛЯЕТЕ</label>
+                <input
+                  type="number"
+                  class="currency_form__input-field"
+                  id="currency-form-first-input"
+                  value="1000"
+                />
+                <div class="currency_form__rub-input-icon-box">
+                  <div class="currency_form__input-icon">
+                    <img src="./assets/images/rub_vector.png" alt="rub" />
+                  </div>
+                  <div class="currency_form__input-icon-name">RUB</div>
+                </div>
+              </div>
+              <button class="currency_form__switch_btn rotation0">
+                <img
+                  src="./assets/images/switch.png"
+                  class="web-switch-img"
+                  alt="switch"
+                />
+                <img
+                  src="./assets/images/mobile_switch.png"
+                  class="mob-switch-img"
+                  alt="switch"
+                />
+              </button>
+              <div class="currency_form__input-box">
+                <label class="currency_form__input-label">ВЫ ПОЛУЧАЕТЕ</label>
+                <input
+                  type="number"
+                  class="currency_form__input-field"
+                  id="currency-form-second-input"
+                  value="13.7"
+                />
+                <div class="currency_form__usd-input-icon-box">
+                  <div class="currency_form__input-icon">
+                    <img src="./assets/images/usd_vector.png" alt="usd" />
+                  </div>
+                  <div class="currency_form__input-icon-name">USD</div>
+                </div>
+              </div>
+            </div>
+            <div class="currency_form__info">
+              <p class="currency_form__info-title">
+                Обменный курс&nbsp<span class="gold-color">USD/RUB:</span>
+              </p>
+              <div class="currency_form__info-course short-min-width">
+                <p>Покупка&nbsp<span class="form__accent-text"></span></p>
+                <p>Продажа&nbsp<span class="form__accent-text"></span></p>
+              </div>
+            </div>
+            <div class="currency_form__btn_container">
+              <button
+                class="currency_form__submit_btn show-modal pulse-animation shine"
+                id="currency-sbmt"
+              >
+                Оставить заявку
+              </button>
+            </div>
+          </form>
+          <div class="hand_image_container rub_hand">
+            <img
+              class="hand_image screw-anim"
+              src="./assets/images/RUB_hand.png"
+              alt="Hand with ruble"
+            />
+          </div>
+          <div class="hand_image_container usd_hand">
+            <img
+              class="hand_image"
+              src="./assets/images/USD_hand.png"
+              alt="Hand with dollar"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="cryptocurrency_container">
+        <div class="cryptocurrency__imgs-container">
+          <div class="cryptocurrency__ltc_img-box bounce-animation">
+            <img class="" src="./assets/images/LITECOIN.png" alt="LITECOIN" />
+          </div>
+          <div class="cryptocurrency__eth_img-box bounce-animation">
+            <img src="./assets/images/ETH.png" alt="ETHEREUM" />
+          </div>
+        </div>
+        <form
+          action=""
+          class="cryptocurrency_form"
+          data-currency-type="usdtToUsd"
+        >
+          <div class="cryptocurrency_form_logos-container">
+            <img
+              src="./assets/images/BTC.png"
+              class="cryptocurrency_form_BTC-image orbita-animation"
+              alt="BTC image"
+            />
+            <img
+              src="./assets/images/USDT.png"
+              class="cryptocurrency_form_USDT-image orbita-animation-slowed"
+              alt="USDT image"
+            />
+          </div>
+          <div class="currency_form__title">
+            Покупка и продажа<span class="gold-color">&nbspКриптовалют</span>
+          </div>
+          <div class="currency_form__inputs-container">
+            <div class="currency_form__input-box">
+              <label class="currency_form__input-label">ВЫ ОТПРАВЛЯЕТЕ</label>
+              <input
+                type="number"
+                class="currency_form__input-field"
+                id="cryptocurrency-form-first-input"
+                value="7900"
+              />
+              <div class="currency_form__usdt-input-icon-box">
+                <div class="currency_form__input-icon">
+                  <img src="./assets/images/usdt_vector.png" alt="usdt" />
+                </div>
+                <div class="currency_form__input-icon-name">USDT</div>
+              </div>
+            </div>
+            <button class="cryptocurrency_form__switch_btn rotation0">
+              <img
+                src="./assets/images/switch.png"
+                class="web-switch-img"
+                alt="switch"
+              />
+              <img
+                src="./assets/images/mobile_switch.png"
+                class="mob-switch-img"
+                alt="switch"
+              />
+            </button>
+            <div class="currency_form__input-box">
+              <label class="currency_form__input-label">ВЫ ПОЛУЧАЕТЕ</label>
+              <input
+                type="number"
+                class="currency_form__input-field"
+                id="cryptocurrency-form-second-input"
+                value="7663"
+              />
+              <div class="currency_form__usd-input-icon-box crypto">
+                <div class="currency_form__input-icon">
+                  <img src="./assets/images/usd_vector.png" alt="usd" />
+                </div>
+                <div class="currency_form__input-icon-name">USD</div>
+              </div>
+            </div>
+          </div>
+          <div class="currency_form__info">
+            <p class="currency_form__info-title">Комиссия:</p>
+            <div class="currency_form__info-course long-min-width">
+              <p>
+                <span class="form__info-text">Если сумма</span
+                ><span class="form__info-text-mobile">Сумма</span>
+                &#60;5000$<span class="form__accent-text">&nbsp5%</span>
+              </p>
+              <p>
+                <span class="form__info-text">Если сумма</span
+                ><span class="form__info-text-mobile">Сумма</span>
+                &#62;5000$<span class="form__accent-text">&nbsp3%</span>
+              </p>
+            </div>
+          </div>
+          <div class="currency_form__btn_container">
+            <button
+              class="currency_form__submit_btn show-modal pulse-animation"
+              id="cryptocurrency-sbmt"
+            >
+              Оставить заявку
+            </button>
+          </div>
+        </form>
+        <div class="cryptocurrency_container__outer_circle">
+          <div class="cryptocurrency_container__inner_circle"></div>
+        </div>
+      </section>
+      <section class="preview_container">
+        <div class="preview_container-gradient">
+          <div class="preview_container-top-gradient"></div>
+          <div class="preview_container-title">Видеоотзывы</div>
+          <div class="preview_container-carousel-container">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="preview_container-video-card">
+                    <div class="preview_container-video swiper-slide--one">
+                      <button
+                        class="preview_container-video-btn"
+                        data-type="1-video"
+                      >
+                        <img src="./assets/images/play_icon.png" alt="play" />
+                      </button>
+                    </div>
+                    <div class="preview_container-video-name">
+                      Vadim Latypov
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="preview_container-video-card">
+                    <div class="preview_container-video swiper-slide--two">
+                      <button
+                        class="preview_container-video-btn"
+                        data-type="2-video"
+                      >
+                        <img src="./assets/images/play_icon.png" alt="play" />
+                      </button>
+                    </div>
+                    <div class="preview_container-video-name">Paul Erl</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="preview_container-video-card">
+                    <div class="preview_container-video swiper-slide--three">
+                      <button
+                        class="preview_container-video-btn"
+                        data-type="3-video"
+                      >
+                        <img src="./assets/images/play_icon.png" alt="play" />
+                      </button>
+                    </div>
+                    <div class="preview_container-video-name">
+                      Ruslan Nigmatullin
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="preview_container-video-card">
+                    <div class="preview_container-video swiper-slide--four">
+                      <button
+                        class="preview_container-video-btn"
+                        data-type="4-video"
+                      >
+                        <img src="./assets/images/play_icon.png" alt="play" />
+                      </button>
+                    </div>
+                    <div class="preview_container-video-name">
+                      Viktoriia Hrab
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="preview_container-video-card">
+                    <div class="preview_container-video swiper-slide--five">
+                      <button
+                        class="preview_container-video-btn"
+                        data-type="5-video"
+                      >
+                        <img src="./assets/images/play_icon.png" alt="play" />
+                      </button>
+                    </div>
+                    <div class="preview_container-video-name">Olya</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="preview_container-video-card">
+                    <div class="preview_container-video swiper-slide--six">
+                      <button
+                        class="preview_container-video-btn"
+                        data-type="6-video"
+                      >
+                        <img src="./assets/images/play_icon.png" alt="play" />
+                      </button>
+                    </div>
+                    <div class="preview_container-video-name">Irina Sivak</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="preview_container-mobile-carousel-container">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-mobile">
+                  <button
+                    class="preview_container-video-btn"
+                    data-type="1-video"
+                  >
+                    <img src="./assets/images/play_icon.png" alt="play" />
+                  </button>
+                  <div class="picture">
+                    <img
+                      src="./assets/images/vadimlatypof_video_poster.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-mobile">
+                  <button
+                    class="preview_container-video-btn"
+                    data-type="2-video"
+                  >
+                    <img src="./assets/images/play_icon.png" alt="play" />
+                  </button>
+                  <div class="picture">
+                    <img
+                      src="./assets/images/paul3344_video_poster.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-mobile">
+                  <button
+                    class="preview_container-video-btn"
+                    data-type="3-video"
+                  >
+                    <img src="./assets/images/play_icon.png" alt="play" />
+                  </button>
+                  <div class="picture">
+                    <img
+                      src="./assets/images/ruslan_nigmatullin_video_poster.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-mobile">
+                  <button
+                    class="preview_container-video-btn"
+                    data-type="4-video"
+                  >
+                    <img src="./assets/images/play_icon.png" alt="play" />
+                  </button>
+                  <div class="picture">
+                    <img
+                      src="./assets/images/cometvic_video_poster.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-mobile">
+                  <button
+                    class="preview_container-video-btn"
+                    data-type="5-video"
+                  >
+                    <img src="./assets/images/play_icon.png" alt="play" />
+                  </button>
+                  <div class="picture">
+                    <img
+                      src="./assets/images/mixollya28_video_poster.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-mobile">
+                  <button
+                    class="preview_container-video-btn"
+                    data-type="6-video"
+                  >
+                    <img src="./assets/images/play_icon.png" alt="play" />
+                  </button>
+                  <div class="picture">
+                    <img
+                      src="./assets/images/wall_str_cat_video_poster.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination mobile-pagination"></div>
+            </div>
+          </div>
+          <div class="preview_container__outer_circle">
+            <div class="preview_container__inner_circle"></div>
+          </div>
+          <div class="preview_container-bottom-gradient"></div>
+        </div>
+      </section>
+      <div class="video-overlay hidden">
+        <div class="modal-video-box hidden mvideo">
+          <div class="modal-video mvideo">
+            <video autoplay loop class="modal-video-play mvideo" playsinline>
+              <source type="video/mp4" />
+            </video>
+          </div>
+          <div class="modal-video-footer mvideo">
+            <div class="modal-video-name mvideo">Sam Smith</div>
+            <div class="modal-video-inst mvideo">
+              <img
+                class="modal-video-img mvideo"
+                src="/assets/images/instagram_icon.png"
+                alt=""
+              />
+              <img
+                class="modal-video-mobile-img mvideo"
+                src="/assets/images/mobile_instagram_icon.png"
+                alt=""
+              />
+              <a href="" target="_blank">sam.smith</a>
+            </div>
+          </div>
+        </div>
+        <button class="close-video-modal">&times;</button>
+      </div>
+      <section class="licence_container">
+        <img
+          src="./assets/images/left_scroll.png"
+          class="licence_container_img left-scroll-position"
+          alt="left scroll image"
+        />
+        <div class="licence_container__outer_circle">
+          <div class="licence_container__inner_circle">
+            <img
+              src="./assets/images/left_coins.png"
+              class="licence_container_img left-coins-position"
+              alt="left coins image"
+            />
+            <div class="licence_container__info">
+              Наша лицензия <br />
+              для совершения <br />
+              валютных операций
+            </div>
+            <button class="licence_container__btn pulse-animation">
+              Посмотреть
+            </button>
+            <img
+              src="./assets/images/solo-scroll.png"
+              class="mobile-scroll-img"
+              alt="solo scroll image"
+            />
+            <img
+              src="./assets/images/right_coins.png"
+              class="licence_container_img right-coins-position"
+              alt="right coins image"
+            />
+          </div>
+        </div>
+        <img
+          src="./assets/images/right_scroll.png"
+          class="licence_container_img right-scroll-position"
+          alt="right scroll image"
+        />
+      </section>
+      <section class="contacts_container">
+        <div class="contacts_container-top-gradient"></div>
+        <div class="contacts_container_header">
+          <div class="contacts_container_title-box">
+            <div class="contacts_container-title">
+              <p class="contacts_container-title-text">
+                Свяжитесь с нами, и<br class="info-text-delimiter" />
+                мы свяжемся с вами.
+              </p>
+              <button
+                class="telegram-contact-btn black-pulse-animation contact-tg-btn"
+                onclick="window.open('https://t.me/WhatMoneyExchange', '_blank', 'fullscreen=yes'); return false;"
+              >
+                <img
+                  src="./assets/images/telegram_icon.png"
+                  alt="telegram icon"
+                />
+                <p>Связаться с нами в Telegram</p>
+              </button>
+            </div>
+            <div class="contacts_container_title-img-box">
+              <img src="./assets/images/money_man.png" alt="Money man image" />
+            </div>
+          </div>
+        </div>
+        <div class="contacts_container_content-box">
+          <form class="contacts_container_form">
+            <input
+              type="text"
+              class="contacts_container_input name-input"
+              placeholder="Как к вам обращаться?"
+            />
+            <div class="contacts-input-container" id="contact-city-select-box">
+              <div class="select modal-form-city-input">
+                <div
+                  class="selectBtn placeholder-text"
+                  id="contact-city-default-input"
+                  data-type="questionOption"
+                >
+                  В каком городе вы находитесь?
+                </div>
+                <div class="selectDropdown">
+                  <div class="option contacts-input" data-type="LAOption">
+                    Лос-Анджелес
+                  </div>
+                  <div class="option contacts-input" data-type="MiamiOption">
+                    Майами
+                  </div>
+                  <div
+                    class="option contacts-input contact-hidden-city-option"
+                    id="modalOtherOption"
+                    data-type="otherOption"
+                  >
+                    Другой
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input
+              type="text"
+              class="contact-form-hidden-city-input contacts_container_input name-input hidden"
+              placeholder="Введите ваш город"
+            />
+            <div class="contacts-input-container" id="contact-way-select-box">
+              <div class="select modal-form-contact-input">
+                <div
+                  class="selectBtn placeholder-text"
+                  data-type="firstOption"
+                  id="contact-way-default-input"
+                >
+                  Как с вами связаться?
+                </div>
+                <div class="selectDropdown">
+                  <div
+                    class="option contacts-input contact-option-form contact-tg-option"
+                    data-type="firstOption"
+                  >
+                    <img
+                      src="./assets/images/telegram_icon.png "
+                      class="option-img"
+                      alt=""
+                    />
+                    Telegram
+                  </div>
+                  <div
+                    class="option contacts-input contact-option-form"
+                    data-type="secondOption"
+                  >
+                    <img
+                      src="./assets/images/whatsapp_icon.png"
+                      class="option-img"
+                      alt=""
+                    />WhatsUp
+                  </div>
+                  <div
+                    class="option contacts-input contact-option-form"
+                    data-type="thirdOption"
+                  >
+                    <img
+                      src="./assets/images/sms_icon.png"
+                      class="option-img"
+                      alt=""
+                    />IMessage
+                  </div>
+                  <div
+                    class="option contacts-input contact-option-form"
+                    data-type="fourOption"
+                  >
+                    <img
+                      src="./assets/images/phone_icon.png"
+                      class="option-img"
+                      alt=""
+                    />Звонок по телефону
+                  </div>
+                  <div
+                    class="option contacts-input contact-option-form"
+                    data-type="fiveOption"
+                  >
+                    <img
+                      src="./assets/images/mail_icon.png"
+                      class="option-img"
+                      alt=""
+                    />SMS
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input
+              type="text"
+              class="contact-form-hidden-number-input contacts_container_input name-input hidden phone-mask"
+              id="contact-way-spec-input"
+              placeholder="Введите ваш телефон"
+            />
+            <textarea
+              class="contacts_container_input comment-input"
+              placeholder="Комментарий"
+            ></textarea>
+            <button class="contacts_container-btn pulse-animation">
+              Отправить
+            </button>
+          </form>
+          <div class="contacts_map-img-box contacts-map">
+            <img
+              src="./assets/images/US_map.png"
+              alt="US Map"
+              id="us_map_img"
+            />
+          </div>
+          <div class="contacts_map-img-box contacts-map-mobile">
+            <img
+              src="./assets/images/US_map_mobile.png"
+              alt="US Map"
+              id="us_map_mobile_img"
+            />
+          </div>
+        </div>
+        <div class="contacts_container-bottom-gradient"></div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__outer_circle">
+        <div class="footer__inner_circle">
+          <div class="footer__content-box">
+            <div class="footer__info-element footer-title">
+              <img src="./assets/images/Logo.png" alt="WhatMoney Logo" />
+            </div>
+            <div class="footer__info-element">
+              <div
+                class="info-element_icon-box pulse-animation"
+                onclick="window.open('sms:+18504646666', '_blank', 'fullscreen=yes'); return false;"
+              >
+                <img src="./assets/images/sms_icon.png" alt="sms icon.png" />
+              </div>
+              <div
+                class="info-element_icon-box pulse-animation"
+                onclick="window.open('https://t.me/WhatMoneyExchange', '_blank', 'fullscreen=yes'); return false;"
+              >
+                <img
+                  src="./assets/images/telegram_icon.png"
+                  alt="telegram icon"
+                />
+              </div>
+              <div
+                class="info-element_icon-box pulse-animation"
+                onclick="window.open('https://wa.me/18504646666', '_blank', 'fullscreen=yes'); return false;"
+              >
+                <img
+                  src="./assets/images/whatsapp_icon.png"
+                  alt="whatsapp icon"
+                />
+              </div>
+              <div class="info-element_icon-box open-joke-btn pulse-animation">
+                <img src="./assets/images/fax_icon.png" alt="fax icon" />
+              </div>
+            </div>
+            <div class="footer__info-element copyright-box">
+              © 2023 WhatMoney
+            </div>
+            <div
+              class="footer__info-element creator-box"
+              onclick="window.open('https://improvs.tech/', '_blank', 'fullscreen=yes'); return false;"
+            >
+              <img
+                src="./assets/images/createdby_img.png"
+                alt="created by improvs"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="joke-overlay hidden">
+        <div class="modal-joke joke hidden">
+          <div class="modal-joke-text joke">
+            Мы надеемся что вы пошутили, но мы уже 20 лет не пользуемся факсом
+            😅
+          </div>
+          <button class="modal-joke-back-btn">Назад</button>
+        </div>
+        <button class="close-joke-modal">
+          <img src="./assets/images/close-modal-icon.png" alt="" />
+        </button>
+      </div>
+      <div class="licence-overlay hidden">
+        <div class="licence-modal licence">
+          <img sclass="licence" src="./assets/images/licence.png" alt="" />
+        </div>
+        <button class="close-licence-modal">
+          <img src="./assets/images/close-icon.png" alt="" />
+        </button>
+      </div>
+      <div class="form-popup-overlay hidden">
+        <div class="form-popup popup">
+          <div class="form-popup-content popup">
+            <img
+              class="popup"
+              src="./assets/images/confirmation-badge.png"
+              alt=""
+            />
+            Ваша заявка успешно отправлена!
+            <button class="form-popup-back-btn">ОК</button>
+          </div>
+        </div>
+        <button class="close-form-popup">
+          <img src="./assets/images/close-modal-icon.png" alt="" />
+        </button>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/form-popup.js"></script>
+    <script src="./assets/js/course-service.js"></script>
+    <script src="./assets/js/modal-and-select.js"></script>
+    <script src="./assets/js/nav-modal.js"></script>
+    <script src="./assets/js/currencies-select.js"></script>
+    <script src="./assets/js/carousel.js"></script>
+    <script src="./assets/js/joke-modal.js"></script>
+    <script src="./assets/js/forms.js"></script>
+    <script src="./assets/js/contact-form-service.js"></script>
+    <script src="./assets/js/license-modal.js"></script>
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1325783618357021');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1325783618357021&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+  </body>
+</html>
